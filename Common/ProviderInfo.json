@@ -1,0 +1,17 @@
+{
+        "daily-prc": {
+            "name": "Operating Reserves",
+            "apiUrl": "https://www.ercot.com/api/1/services/read/dashboards/daily-prc.json",
+            "description": "The Operating Reserves meter shows the current state of grid conditions as well as the amount of operating reserves. The Daily PRC graph shows both recent and current Physical Responsive Capability (PRC), which is the total amount of frequency responsive Resource capability On-Line in Real-Time."
+        },
+        "todays-outlook": {
+            "name": "Supply & Demand",
+            "apiUrl": "https://www.ercot.com/api/1/services/read/dashboards/todays-outlook.json",
+            "description": "Supply and Demand is a graphical representation of the ERCOT system’s current power supply (capacity) and demand using Real-Time data, as well as projected power supply (capacity) and demand from hourly forecasts."
+        },
+        "combine-wind-solar": {
+            "name": "Wind & Solar",
+            "apiUrl": "https://www.ercot.com/api/1/services/read/dashboards/combine-wind-solar.json",
+            "description": "Combine Wind and Solar is a graphical representation of estimated wind and solar power production amounts for the Current Operating Day."
+        }
+}

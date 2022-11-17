@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC06F8C028A74F1600A76368 /* BackgroundTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06F8BF28A74F1600A76368 /* BackgroundTasks.framework */; };
+		FC72EF6F28A5EA2B0054A346 /* TEXGridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72EF6E28A5EA2B0054A346 /* TEXGridData.swift */; };
+		FC72EF7028A5EA2B0054A346 /* TEXGridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72EF6E28A5EA2B0054A346 /* TEXGridData.swift */; };
+		FC72EF7228A5F7F20054A346 /* PreviewData.json in Resources */ = {isa = PBXBuildFile; fileRef = FC72EF7128A5F7F20054A346 /* PreviewData.json */; };
+		FC783E4A28AC37B7008FE1AC /* OperatingReservesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC783E4928AC37B7008FE1AC /* OperatingReservesChart.swift */; };
+		FC783E4C28AC383A008FE1AC /* TodaysOutlookChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC783E4B28AC383A008FE1AC /* TodaysOutlookChart.swift */; };
+		FC783E4E28AC388A008FE1AC /* WindSolarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC783E4D28AC388A008FE1AC /* WindSolarChart.swift */; };
+		FC783E5028B077B9008FE1AC /* ProviderInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = FC783E4F28B077B9008FE1AC /* ProviderInfo.json */; };
+		FC783E5128B077B9008FE1AC /* ProviderInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = FC783E4F28B077B9008FE1AC /* ProviderInfo.json */; };
+		FC9FFF81287FA76200CE01E0 /* TEXGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF80287FA76200CE01E0 /* TEXGridApp.swift */; };
+		FC9FFF83287FA76200CE01E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF82287FA76200CE01E0 /* ContentView.swift */; };
+		FC9FFF85287FA76300CE01E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9FFF84287FA76300CE01E0 /* Assets.xcassets */; };
+		FC9FFF88287FA76300CE01E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9FFF87287FA76300CE01E0 /* Preview Assets.xcassets */; };
+		FC9FFF8F287FA78900CE01E0 /* OperatingReserves.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF8E287FA78900CE01E0 /* OperatingReserves.swift */; };
+		FC9FFF91287FA82900CE01E0 /* TodaysOutlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF90287FA82900CE01E0 /* TodaysOutlook.swift */; };
+		FC9FFF93287FA8A300CE01E0 /* WindSolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF92287FA8A300CE01E0 /* WindSolar.swift */; };
+		FC9FFF99287FAFC300CE01E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF98287FAFC300CE01E0 /* Extensions.swift */; };
+		FCA8431128863FAF00F6A73D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA8431028863FAF00F6A73D /* WidgetKit.framework */; };
+		FCA8431328863FAF00F6A73D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA8431228863FAF00F6A73D /* SwiftUI.framework */; };
+		FCA8431628863FAF00F6A73D /* TEXGridWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA8431528863FAF00F6A73D /* TEXGridWidget.swift */; };
+		FCA8431828863FB100F6A73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA8431728863FB100F6A73D /* Assets.xcassets */; };
+		FCA8431C28863FB100F6A73D /* TEXGridWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FCA8430E28863FAF00F6A73D /* TEXGridWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCA843332886407900F6A73D /* TodaysOutlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF90287FA82900CE01E0 /* TodaysOutlook.swift */; };
+		FCA843342886407900F6A73D /* WindSolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF92287FA8A300CE01E0 /* WindSolar.swift */; };
+		FCA843352886407900F6A73D /* OperatingReserves.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF8E287FA78900CE01E0 /* OperatingReserves.swift */; };
+		FCA843362886408B00F6A73D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FFF98287FAFC300CE01E0 /* Extensions.swift */; };
+		FCA84338288640A500F6A73D /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA84337288640A500F6A73D /* Fetch.swift */; };
+		FCA84339288640A500F6A73D /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA84337288640A500F6A73D /* Fetch.swift */; };
+		FCCA18C52884DE8200F840F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCA18C42884DE8200F840F0 /* LaunchScreen.storyboard */; };
+		FCFF918828A947DF00F8E5E7 /* BackgroundTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF918728A947DF00F8E5E7 /* BackgroundTasks.swift */; };
+		FCFF918928A947DF00F8E5E7 /* BackgroundTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF918728A947DF00F8E5E7 /* BackgroundTasks.swift */; };
+		FCFF918B28AC0F4000F8E5E7 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF918A28AC0F4000F8E5E7 /* DataPoint.swift */; };
+		FCFF918C28AC0F4000F8E5E7 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF918A28AC0F4000F8E5E7 /* DataPoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA8431A28863FB100F6A73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9FFF75287FA76200CE01E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA8430D28863FAF00F6A73D;
+			remoteInfo = ERCOTWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCA8431D28863FB100F6A73D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCA8431C28863FB100F6A73D /* TEXGridWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA843312886403E00F6A73D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC06F8BF28A74F1600A76368 /* BackgroundTasks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundTasks.framework; path = System/Library/Frameworks/BackgroundTasks.framework; sourceTree = SDKROOT; };
+		FC72EF6E28A5EA2B0054A346 /* TEXGridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEXGridData.swift; sourceTree = "<group>"; };
+		FC72EF7128A5F7F20054A346 /* PreviewData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PreviewData.json; sourceTree = "<group>"; };
+		FC783E4928AC37B7008FE1AC /* OperatingReservesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingReservesChart.swift; sourceTree = "<group>"; };
+		FC783E4B28AC383A008FE1AC /* TodaysOutlookChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysOutlookChart.swift; sourceTree = "<group>"; };
+		FC783E4D28AC388A008FE1AC /* WindSolarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindSolarChart.swift; sourceTree = "<group>"; };
+		FC783E4F28B077B9008FE1AC /* ProviderInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProviderInfo.json; sourceTree = "<group>"; };
+		FC9FFF7D287FA76200CE01E0 /* TEXGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEXGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9FFF80287FA76200CE01E0 /* TEXGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEXGridApp.swift; sourceTree = "<group>"; };
+		FC9FFF82287FA76200CE01E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC9FFF84287FA76300CE01E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9FFF87287FA76300CE01E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC9FFF8E287FA78900CE01E0 /* OperatingReserves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingReserves.swift; sourceTree = "<group>"; };
+		FC9FFF90287FA82900CE01E0 /* TodaysOutlook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysOutlook.swift; sourceTree = "<group>"; };
+		FC9FFF92287FA8A300CE01E0 /* WindSolar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindSolar.swift; sourceTree = "<group>"; };
+		FC9FFF98287FAFC300CE01E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FCA8430E28863FAF00F6A73D /* TEXGridWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TEXGridWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA8431028863FAF00F6A73D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FCA8431228863FAF00F6A73D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FCA8431528863FAF00F6A73D /* TEXGridWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEXGridWidget.swift; sourceTree = "<group>"; };
+		FCA8431728863FB100F6A73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA8431928863FB100F6A73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA84337288640A500F6A73D /* Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		FCCA18C42884DE8200F840F0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCA18C62884F16200F840F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FCCA18C72884F26C00F840F0 /* TEXGrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TEXGrid.entitlements; sourceTree = "<group>"; };
+		FCFF918728A947DF00F8E5E7 /* BackgroundTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTasks.swift; sourceTree = "<group>"; };
+		FCFF918A28AC0F4000F8E5E7 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9FFF7A287FA76200CE01E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06F8C028A74F1600A76368 /* BackgroundTasks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA8430B28863FAF00F6A73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA8431328863FAF00F6A73D /* SwiftUI.framework in Frameworks */,
+				FCA8431128863FAF00F6A73D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC783E4828AC3792008FE1AC /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				FC783E4928AC37B7008FE1AC /* OperatingReservesChart.swift */,
+				FC783E4B28AC383A008FE1AC /* TodaysOutlookChart.swift */,
+				FC783E4D28AC388A008FE1AC /* WindSolarChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		FC9FFF74287FA76200CE01E0 = {
+			isa = PBXGroup;
+			children = (
+				FCA843322886405600F6A73D /* Common */,
+				FC9FFF7F287FA76200CE01E0 /* TEXGrid */,
+				FCA8431428863FAF00F6A73D /* TEXGridWidget */,
+				FCA8430F28863FAF00F6A73D /* Frameworks */,
+				FC9FFF7E287FA76200CE01E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9FFF7E287FA76200CE01E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9FFF7D287FA76200CE01E0 /* TEXGrid.app */,
+				FCA8430E28863FAF00F6A73D /* TEXGridWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9FFF7F287FA76200CE01E0 /* TEXGrid */ = {
+			isa = PBXGroup;
+			children = (
+				FC783E4828AC3792008FE1AC /* Charts */,
+				FCCA18C72884F26C00F840F0 /* TEXGrid.entitlements */,
+				FCCA18C62884F16200F840F0 /* Info.plist */,
+				FC9FFF80287FA76200CE01E0 /* TEXGridApp.swift */,
+				FC9FFF82287FA76200CE01E0 /* ContentView.swift */,
+				FC9FFF84287FA76300CE01E0 /* Assets.xcassets */,
+				FC9FFF86287FA76300CE01E0 /* Preview Content */,
+				FCCA18C42884DE8200F840F0 /* LaunchScreen.storyboard */,
+			);
+			path = TEXGrid;
+			sourceTree = "<group>";
+		};
+		FC9FFF86287FA76300CE01E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC72EF7128A5F7F20054A346 /* PreviewData.json */,
+				FC9FFF87287FA76300CE01E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCA8430F28863FAF00F6A73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC06F8BF28A74F1600A76368 /* BackgroundTasks.framework */,
+				FCA8431028863FAF00F6A73D /* WidgetKit.framework */,
+				FCA8431228863FAF00F6A73D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCA8431428863FAF00F6A73D /* TEXGridWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FCA8431528863FAF00F6A73D /* TEXGridWidget.swift */,
+				FCA8431728863FB100F6A73D /* Assets.xcassets */,
+				FCA8431928863FB100F6A73D /* Info.plist */,
+			);
+			path = TEXGridWidget;
+			sourceTree = "<group>";
+		};
+		FCA843322886405600F6A73D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FC9FFF98287FAFC300CE01E0 /* Extensions.swift */,
+				FCCA18C02884A64400F840F0 /* Models */,
+				FCA84337288640A500F6A73D /* Fetch.swift */,
+				FC72EF6E28A5EA2B0054A346 /* TEXGridData.swift */,
+				FCFF918728A947DF00F8E5E7 /* BackgroundTasks.swift */,
+				FC783E4F28B077B9008FE1AC /* ProviderInfo.json */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FCCA18C02884A64400F840F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF918A28AC0F4000F8E5E7 /* DataPoint.swift */,
+				FC9FFF8E287FA78900CE01E0 /* OperatingReserves.swift */,
+				FC9FFF90287FA82900CE01E0 /* TodaysOutlook.swift */,
+				FC9FFF92287FA8A300CE01E0 /* WindSolar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9FFF7C287FA76200CE01E0 /* TEXGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9FFF8B287FA76300CE01E0 /* Build configuration list for PBXNativeTarget "TEXGrid" */;
+			buildPhases = (
+				FC9FFF79287FA76200CE01E0 /* Sources */,
+				FC9FFF7A287FA76200CE01E0 /* Frameworks */,
+				FC9FFF7B287FA76200CE01E0 /* Resources */,
+				FCA8431D28863FB100F6A73D /* Embed Foundation Extensions */,
+				FCA843312886403E00F6A73D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA8431B28863FB100F6A73D /* PBXTargetDependency */,
+			);
+			name = TEXGrid;
+			productName = ERCOTConditions;
+			productReference = FC9FFF7D287FA76200CE01E0 /* TEXGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA8430D28863FAF00F6A73D /* TEXGridWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA8432028863FB100F6A73D /* Build configuration list for PBXNativeTarget "TEXGridWidgetExtension" */;
+			buildPhases = (
+				FCA8430A28863FAF00F6A73D /* Sources */,
+				FCA8430B28863FAF00F6A73D /* Frameworks */,
+				FCA8430C28863FAF00F6A73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEXGridWidgetExtension;
+			productName = ERCOTWidgetExtension;
+			productReference = FCA8430E28863FAF00F6A73D /* TEXGridWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9FFF75287FA76200CE01E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FC9FFF7C287FA76200CE01E0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					FCA8430D28863FAF00F6A73D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FC9FFF78287FA76200CE01E0 /* Build configuration list for PBXProject "TEXGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9FFF74287FA76200CE01E0;
+			productRefGroup = FC9FFF7E287FA76200CE01E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9FFF7C287FA76200CE01E0 /* TEXGrid */,
+				FCA8430D28863FAF00F6A73D /* TEXGridWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9FFF7B287FA76200CE01E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC72EF7228A5F7F20054A346 /* PreviewData.json in Resources */,
+				FCCA18C52884DE8200F840F0 /* LaunchScreen.storyboard in Resources */,
+				FC9FFF88287FA76300CE01E0 /* Preview Assets.xcassets in Resources */,
+				FC783E5028B077B9008FE1AC /* ProviderInfo.json in Resources */,
+				FC9FFF85287FA76300CE01E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA8430C28863FAF00F6A73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC783E5128B077B9008FE1AC /* ProviderInfo.json in Resources */,
+				FCA8431828863FB100F6A73D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9FFF79287FA76200CE01E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9FFF93287FA8A300CE01E0 /* WindSolar.swift in Sources */,
+				FC9FFF83287FA76200CE01E0 /* ContentView.swift in Sources */,
+				FCFF918B28AC0F4000F8E5E7 /* DataPoint.swift in Sources */,
+				FC9FFF81287FA76200CE01E0 /* TEXGridApp.swift in Sources */,
+				FCA84338288640A500F6A73D /* Fetch.swift in Sources */,
+				FC9FFF8F287FA78900CE01E0 /* OperatingReserves.swift in Sources */,
+				FC783E4C28AC383A008FE1AC /* TodaysOutlookChart.swift in Sources */,
+				FC72EF6F28A5EA2B0054A346 /* TEXGridData.swift in Sources */,
+				FC783E4A28AC37B7008FE1AC /* OperatingReservesChart.swift in Sources */,
+				FCFF918828A947DF00F8E5E7 /* BackgroundTasks.swift in Sources */,
+				FC9FFF91287FA82900CE01E0 /* TodaysOutlook.swift in Sources */,
+				FC9FFF99287FAFC300CE01E0 /* Extensions.swift in Sources */,
+				FC783E4E28AC388A008FE1AC /* WindSolarChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA8430A28863FAF00F6A73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFF918C28AC0F4000F8E5E7 /* DataPoint.swift in Sources */,
+				FCA84339288640A500F6A73D /* Fetch.swift in Sources */,
+				FC72EF7028A5EA2B0054A346 /* TEXGridData.swift in Sources */,
+				FCA843362886408B00F6A73D /* Extensions.swift in Sources */,
+				FCA843342886407900F6A73D /* WindSolar.swift in Sources */,
+				FCA8431628863FAF00F6A73D /* TEXGridWidget.swift in Sources */,
+				FCA843352886407900F6A73D /* OperatingReserves.swift in Sources */,
+				FCFF918928A947DF00F8E5E7 /* BackgroundTasks.swift in Sources */,
+				FCA843332886407900F6A73D /* TodaysOutlook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA8431B28863FB100F6A73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA8430D28863FAF00F6A73D /* TEXGridWidgetExtension */;
+			targetProxy = FCA8431A28863FB100F6A73D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC9FFF89287FA76300CE01E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9FFF8A287FA76300CE01E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9FFF8C287FA76300CE01E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TEXGrid/TEXGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TEXGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = L586WSJPG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEXGrid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TEXGrid;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gregwhatley.TEXGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9FFF8D287FA76300CE01E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TEXGrid/TEXGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TEXGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = L586WSJPG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEXGrid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TEXGrid;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gregwhatley.TEXGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA8431E28863FB100F6A73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L586WSJPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEXGridWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TEXGrid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gregwhatley.TEXGrid.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA8431F28863FB100F6A73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L586WSJPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEXGridWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TEXGrid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.gregwhatley.TEXGrid.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9FFF78287FA76200CE01E0 /* Build configuration list for PBXProject "TEXGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9FFF89287FA76300CE01E0 /* Debug */,
+				FC9FFF8A287FA76300CE01E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9FFF8B287FA76300CE01E0 /* Build configuration list for PBXNativeTarget "TEXGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9FFF8C287FA76300CE01E0 /* Debug */,
+				FC9FFF8D287FA76300CE01E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA8432028863FB100F6A73D /* Build configuration list for PBXNativeTarget "TEXGridWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA8431E28863FB100F6A73D /* Debug */,
+				FCA8431F28863FB100F6A73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9FFF75287FA76200CE01E0 /* Project object */;
+}
